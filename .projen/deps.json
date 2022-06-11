@@ -10,16 +10,6 @@
       "type": "build"
     },
     {
-      "name": "@typescript-eslint/eslint-plugin",
-      "version": "^5",
-      "type": "build"
-    },
-    {
-      "name": "@typescript-eslint/parser",
-      "version": "^5",
-      "type": "build"
-    },
-    {
       "name": "cdk8s",
       "version": "1.4.10",
       "type": "build"
@@ -27,23 +17,6 @@
     {
       "name": "constructs",
       "version": "3.3.196",
-      "type": "build"
-    },
-    {
-      "name": "eslint-import-resolver-node",
-      "type": "build"
-    },
-    {
-      "name": "eslint-import-resolver-typescript",
-      "type": "build"
-    },
-    {
-      "name": "eslint-plugin-import",
-      "type": "build"
-    },
-    {
-      "name": "eslint",
-      "version": "^8",
       "type": "build"
     },
     {
@@ -70,10 +43,6 @@
     },
     {
       "name": "jsii-pacmak",
-      "type": "build"
-    },
-    {
-      "name": "json-schema",
       "type": "build"
     },
     {

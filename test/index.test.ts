@@ -15,6 +15,6 @@ class Test extends Chart {
 test('hello', () => {
   let app = Testing.app()
   let chart = new Test(app, 'test-chart');
-  let yaml = Testing.synth(chart)
+  let yaml = JSON.stringify(Testing.synth(chart))
   expect(yaml).toContain('PostgresCluster')
 });
