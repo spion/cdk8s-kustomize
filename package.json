@@ -2,7 +2,7 @@
   "name": "cdk8s-kustomize",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gorgi.kosev/cdk8s-kustomize.git"
+    "url": "https://github.com/spion/cdk8s-kustomize.git"
   },
   "scripts": {
     "build": "npx projen build",
