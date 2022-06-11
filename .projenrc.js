@@ -1,6 +1,6 @@
 const { cdk8s } = require('projen');
 const project = new cdk8s.ConstructLibraryCdk8s({
-  author: 'Gjorgji Kjosev',
+  author: 'spion',
   authorAddress: 'gorgi.kosev@gmail.com',
   cdk8sVersion: '1.4.10',
   defaultReleaseBranch: 'main',
