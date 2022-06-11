@@ -5,7 +5,7 @@ const project = new cdk8s.ConstructLibraryCdk8s({
   cdk8sVersion: '1.4.10',
   defaultReleaseBranch: 'main',
   name: 'cdk8s-kustomize',
-  repositoryUrl: 'https://github.com/gorgi.kosev/cdk8s-kustomize.git',
+  repositoryUrl: 'https://github.com/spion/cdk8s-kustomize.git',
   eslint: false,
 
   // deps: [],                /* Runtime dependencies of this module. */
