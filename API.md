@@ -59,12 +59,50 @@ public toString(): string
 
 Returns a string representation of this construct.
 
+#### Static Functions <a name="Static Functions" id="Static Functions"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#cdk8s-kustomize.Kustomize.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="cdk8s-kustomize.Kustomize.isConstruct"></a>
+
+```typescript
+import { Kustomize } from 'cdk8s-kustomize'
+
+Kustomize.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="cdk8s-kustomize.Kustomize.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
+
+---
 
 #### Properties <a name="Properties" id="Properties"></a>
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#cdk8s-kustomize.Kustomize.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
 | <code><a href="#cdk8s-kustomize.Kustomize.property.apiObjects">apiObjects</a></code> | <code>cdk8s.ApiObject[]</code> | Returns all the included API objects. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="cdk8s-kustomize.Kustomize.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
 
 ---
 
