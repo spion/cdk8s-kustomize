@@ -2,7 +2,7 @@ const { cdk8s } = require('projen');
 const project = new cdk8s.ConstructLibraryCdk8s({
   author: 'spion',
   authorAddress: 'gorgi.kosev@gmail.com',
-  cdk8sVersion: '1.4.10',
+  cdk8sVersion: '2.3.81',
   defaultReleaseBranch: 'main',
   name: 'cdk8s-kustomize',
   repositoryUrl: 'https://github.com/spion/cdk8s-kustomize.git',
